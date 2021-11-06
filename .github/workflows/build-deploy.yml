@@ -31,7 +31,8 @@ jobs:
 
     - name: Upload build files
       uses: action/upload-artifact@v2
-        with: production-files
+      with: 
+        name: production-files
         path: ./app/build
 
   deploy:

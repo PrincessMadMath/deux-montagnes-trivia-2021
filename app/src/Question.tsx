@@ -6,7 +6,7 @@ interface QuestionProps {
 
 export const Question = ({ text }: QuestionProps) => {
     return (
-        <Box bg="tomato" padding={4}>
+        <Box bg="purple.700" padding={4}>
             {text}
         </Box>
     );

@@ -1,5 +1,4 @@
-import { Box } from "@chakra-ui/react";
-import Particles, { Container, Main } from "react-tsparticles";
+import Particles from "react-tsparticles";
 import styles from "./Confetti.module.css";
 
 export const Confetti = () => {
